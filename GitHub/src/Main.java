@@ -7,10 +7,11 @@ public class Main {
         System.out.println("WOW");
         first();
     }
-    static void first () {
+     static void first() {
         Scanner abc = new Scanner(System.in);
-        System.out.println("Quel est votre nombre préférer ?");
-        int a = abc.nextInt();
-        System.out.println("Votre nombre préférer est le nombre " + a);
+        System.out.println("Votre couleur préférer ?");
+        String a = abc.nextLine();
+        System.out.println("Votre couleur préférer est le "+a);
+
     }
 }
